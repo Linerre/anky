@@ -1,0 +1,56 @@
+
+/* pseudo element header for comment */
+.cmt::before {
+	content: "NOTE";
+	display: block;
+	width: fit-content;
+	color: #3B4252;
+	background-color: #88C0D0;
+	margin: 2pt 0;
+  padding: 0 2pt;
+	border-radius: 2pt;
+}
+
+/* pseudo element header for source */
+.src::before {
+	content: "SRC";
+	display: block;
+	width: fit-content;
+	margin: 5pt 1pt;
+	padding: 0 2pt;
+	color: #3B4252;
+	background-color: #88C0D0;
+	font-weight: bold;
+	border-radius: 2pt;
+}
+
+/* pseduo element header for synonyms */
+.syn::before {
+		content: "SYN";
+		margin-right: .2em;
+		color: orange;
+}
+
+code {
+	display: inline-block;
+	background-color: #D8DEE9;
+	color: #2E3440;
+	border-radius: 2pt;
+	padding: 1pt 2pt;
+	margin: 1pt 2pt;
+}
+
+/* block for code snippet */
+.snippet {
+  border: 1pt solid #D8DEE9;
+  border-radius: 3pt;
+  margin: 1em 0;
+  padding: .2em;
+}
+
+.cmt {
+	margin: 10pt 0;
+	border: 1pt solid #D8DEE9;
+	border-radius: 3pt;
+	padding: 2pt;
+}
