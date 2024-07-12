@@ -1,3 +1,36 @@
+/******************** HTML tags *****************/
+pre {
+	padding: .5em;
+	background: #434C5E;
+}
+
+/* prompt for python */
+pre::before {
+	content: ">>>";
+	color: #B48EAD;
+	display: inline-block;
+  margin-right: 5pt;
+	padding: 0;
+}
+
+code {
+		display: inline-block;
+		background: #f9f2f4;
+		color: #c7254e;
+		border-radius: 2pt;
+		padding: 1pt 2pt;
+		margin: 1pt 2pt
+}
+
+/******************** Classes  *****************/
+/* output for python code */
+.output {
+	margin: -1.2em 0;
+	padding: 1pt 5pt;
+	font-family: monospace;
+	color: #6c757d;
+	background: #434C5E;
+}
 
 /* pseudo element header for comment */
 .cmt::before {
@@ -9,6 +42,13 @@
 	margin: 2pt 0;
   padding: 0 2pt;
 	border-radius: 2pt;
+}
+
+.cmt {
+	margin: 10pt 0;
+	border: 1pt solid #D8DEE9;
+	border-radius: 3pt;
+	padding: 2pt;
 }
 
 /* pseudo element header for source */
@@ -31,14 +71,6 @@
 		color: orange;
 }
 
-code {
-	display: inline-block;
-	background-color: #D8DEE9;
-	color: #2E3440;
-	border-radius: 2pt;
-	padding: 1pt 2pt;
-	margin: 1pt 2pt;
-}
 
 /* block for code snippet */
 .snippet {
@@ -48,9 +80,8 @@ code {
   padding: .2em;
 }
 
-.cmt {
-	margin: 10pt 0;
-	border: 1pt solid #D8DEE9;
-	border-radius: 3pt;
-	padding: 2pt;
+
+
+.tag {
+
 }
