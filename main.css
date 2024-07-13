@@ -80,8 +80,14 @@ code {
   padding: .2em;
 }
 
-
+/* for {{Tags}} field */
+.tag::before {
+	content: "#";
+}
 
 .tag {
-
+	color: #8FBCBB;
+  padding: 2pt;
+  margin: .5em 0;
+  text-transform: capitalize;
 }
