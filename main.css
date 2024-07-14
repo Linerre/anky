@@ -81,11 +81,13 @@ code {
 }
 
 /* for {{Tags}} field */
-.tag::before {
+.tags::before {
 	content: "#";
+  display: inline-block;
+	margin-right: 2pt;
 }
 
-.tag {
+.tags {
 	color: #8FBCBB;
   padding: 2pt;
   margin: .5em 0;
