@@ -1,18 +1,4 @@
 /******************** HTML tags *****************/
-pre {
-	padding: .5em;
-	background: #434C5E;
-}
-
-/* prompt for python */
-pre::before {
-	content: ">>>";
-	color: #B48EAD;
-	display: inline-block;
-  margin-right: 5pt;
-	padding: 0;
-}
-
 code {
 		display: inline-block;
 		background: #f9f2f4;
@@ -20,6 +6,11 @@ code {
 		border-radius: 2pt;
 		padding: 1pt 2pt;
 		margin: 1pt 2pt
+}
+
+pre {
+	background: #434C5E;
+	padding: .3em;
 }
 
 /******************** Classes  *****************/
@@ -92,4 +83,19 @@ code {
   padding: 2pt;
   margin: .5em 0;
   text-transform: capitalize;
+}
+
+/* Repl for python code snippet */
+.pyrepl {
+	font-family: monospace;
+	padding: .3em;
+	background: #434C5E;
+}
+
+.pyrepl::before {
+	content: ">>>";
+	color: #B48EAD;
+	display: inline-block;
+  margin-right: 3pt;
+	padding: 0;
 }
