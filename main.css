@@ -1,11 +1,11 @@
 /******************** HTML tags *****************/
 code {
-		display: inline-block;
-		background: #f9f2f4;
-		color: #c7254e;
-		border-radius: 2pt;
-		padding: 1pt 2pt;
-		margin: 1pt 2pt
+	display: inline-block;
+	background: #f9f2f4;
+	color: #c7254e;
+	border-radius: 2pt;
+	padding: 1pt 2pt;
+	margin: 1pt 2pt
 }
 
 pre {
@@ -57,9 +57,9 @@ pre {
 
 /* pseduo element header for synonyms */
 .syn::before {
-		content: "SYN";
-		margin-right: .2em;
-		color: orange;
+	content: "SYN";
+	margin-right: .2em;
+	color: orange;
 }
 
 
