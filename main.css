@@ -99,3 +99,26 @@ pre {
   margin-right: 3pt;
 	padding: 0;
 }
+
+
+/* Biblio for CLRS */
+.chap, .sec, .page {
+	display: inline-block;
+}
+
+.chap::after {
+	content: ".";
+}
+
+.sec {
+	margin-left: -.2em;
+	margin-right: .2em;
+}
+
+.clrsbib {
+	margin: 1em 0;
+}
+
+.page::before {
+	content: "p";
+}
