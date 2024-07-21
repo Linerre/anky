@@ -31,7 +31,7 @@ pre {
 	color: #3B4252;
 	background-color: #88C0D0;
 	margin: 2pt 0;
-  padding: 0 2pt;
+	padding: 0 2pt;
 	border-radius: 2pt;
 }
 
@@ -65,24 +65,24 @@ pre {
 
 /* block for code snippet */
 .snippet {
-  border: 1pt solid #D8DEE9;
-  border-radius: 3pt;
-  margin: 1em 0;
-  padding: .2em;
+	border: 1pt solid #D8DEE9;
+	border-radius: 3pt;
+	margin: 1em 0;
+	padding: .2em;
 }
 
 /* for {{Tags}} field */
 .tags::before {
 	content: "#";
-  display: inline-block;
+	display: inline-block;
 	margin-right: 2pt;
 }
 
 .tags {
 	color: #8FBCBB;
-  padding: 2pt;
-  margin: .5em 0;
-  text-transform: capitalize;
+	padding: 2pt;
+	margin: .5em 0;
+	text-transform: capitalize;
 }
 
 /* Repl for python code snippet */
@@ -96,7 +96,7 @@ pre {
 	content: ">>>";
 	color: #B48EAD;
 	display: inline-block;
-  margin-right: 3pt;
+	margin-right: 3pt;
 	padding: 0;
 }
 
