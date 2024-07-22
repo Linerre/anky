@@ -13,6 +13,18 @@ pre {
 	padding: .3em;
 }
 
+input[type="text"] {
+	display: inline-block;
+	font-family: monospace;
+	padding: .3em;
+	margin: .5em 0;
+	box-sizing: border-box;
+	font-size: 14pt;
+	border-bottom: 2px solid #D8DEE9;
+	background: #434C5E;
+	min-width: 150%;
+}
+
 /******************** Classes  *****************/
 /* output for python code */
 .output {
