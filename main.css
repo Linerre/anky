@@ -10,7 +10,7 @@ code {
 
 pre {
 	background: #434C5E;
-	padding: .3em;
+	padding: .1em .3em;
 }
 
 input[type="text"] {
@@ -133,4 +133,12 @@ input[type="text"] {
 
 .page::before {
 	content: "p";
+}
+
+/* command line block */
+.cli {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	gap: .3em;
 }
