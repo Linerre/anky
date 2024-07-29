@@ -25,6 +25,10 @@ input[type="text"] {
 	min-width: 150%;
 }
 
+dl {
+	margin: .5em 0;
+}
+
 /******************** Classes  *****************/
 /* output for python code */
 .output {
