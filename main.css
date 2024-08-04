@@ -29,6 +29,18 @@ dl {
 	margin: .5em 0;
 }
 
+dl dt {
+	font-family: monospace;
+	width: fit-content;
+	padding: .1em 0;
+	margin: .1em 0;
+}
+
+
+ul li {
+		height: 1.5em;
+}
+
 /******************** Classes  *****************/
 /* output for python code */
 .output {
@@ -40,7 +52,7 @@ dl {
 }
 
 /* pseudo element header for comment */
-.cmt::before {
+.note::before {
 	content: "NOTE";
 	display: block;
 	width: fit-content;
@@ -51,7 +63,7 @@ dl {
 	border-radius: 2pt;
 }
 
-.cmt {
+.note {
 	margin: 10pt 0;
 	border: 1pt solid #D8DEE9;
 	border-radius: 3pt;
